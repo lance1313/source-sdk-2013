@@ -83,7 +83,7 @@ void CAI_InterestTarget::Add( CBaseEntity *pTarget, float flImportance, float fl
 
 	Add( CAI_InterestTarget_t::LOOKAT_ENTITY, pTarget, Vector( 0, 0, 0 ), flImportance, flDuration, flRamp );
 }
-
+\\commit ot test c++
 void CAI_InterestTarget::Add( const Vector &vecPosition, float flImportance, float flDuration, float flRamp )
 {
 	int i;
